@@ -736,12 +736,6 @@ p .span{
 	align-self: center;
 } 
 
-.fylo-see span {
-	text-align: right;
-	display: flex;
-}
-
-
 .comments{
     display: flex;
     flex-direction: column;
