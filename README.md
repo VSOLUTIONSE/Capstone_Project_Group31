@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://vsolutionse.github.io/Capstone_Project_Group31/)
+- Live Site URL: (https://vsolutionse.github.io/Capstone_Project_Group31/)
 
 ## My process
 
