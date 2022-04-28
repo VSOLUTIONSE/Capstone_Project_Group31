@@ -258,7 +258,7 @@ body .productive-parent, .comments {
     display: flex;
     justify-content: space-between;
     font-family: 'Open Sans', monospace;
-    font-size: 9px;
+    font-size: 16px;
     border: none;
     padding: 0px;
     background-color: transparent;
@@ -507,12 +507,12 @@ li {
 
 .attribution{
         position: relative;
-	color: rgb(249, 246, 246);
-        top: 55%;
+	color: white;
+        top: 55% ;
         text-align: center;
         font-size: 12px;
 }
- 
+
 .attribution a {
         text-decoration: none;
 	color: hsl(228, 45%, 44%);
@@ -702,7 +702,7 @@ li {
     display: flex;
     justify-content: space-between;
     font-family: 'Open Sans', monospace;
-    font-size: 12px;
+    font-size: 10px;
     padding: 0;
     border: none;
     background-color: transparent;
@@ -883,7 +883,13 @@ margin: auto;
 }
 
 
-
+.attribution{
+        position: relative;
+	color: white;
+        top: 75% ;
+        text-align: center;
+        font-size: 9px;
+}
 
 
 
