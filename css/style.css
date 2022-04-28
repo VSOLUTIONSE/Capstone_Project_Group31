@@ -680,14 +680,14 @@ li {
 .productive-h2 {
     font-family: 'Raleway', Courier;
     font-weight: 700;
-    font-size: 1.0em;
+    font-size: 1.5em;
     width: 100%;
     
 }
 
 .productive-p{
     font-family: 'Open Sans', monospace;
-    font-size: 10px;
+    font-size: 12px;
     width: 100%;
     margin: 20px 0;
 
@@ -698,14 +698,14 @@ li {
     display: flex;
     justify-content: space-between;
     font-family: 'Open Sans', monospace;
-    font-size: 9px;
+    font-size: 12px;
     padding: 0;
     border: none;
     background-color: transparent;
     color: hsl(176, 68%, 64%);
     border-bottom: solid hsl(176, 68%, 64%) 2px;
     width: 12em;
-    height: 1.8em;
+    height: 2em;
     top: 10px;
     cursor: pointer;
 }
@@ -719,8 +719,8 @@ li {
 .flyo-works {
     position: relative;
     display: flex;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
 } 
 
 .comments{
@@ -763,7 +763,7 @@ Margin: auto;
 
 
 .comment-tag{
-    top: 20px;
+    top: 100px;
 	   }
 
 
@@ -875,18 +875,19 @@ Margin: auto;
     }
 
 footer-media {
+	position: relative;
 width: 40%;
-margin-left: 25%;
-	margin-top: 20px;
+margin-left: 50%;
+	margin-top: 40px;
 }
 
 
 .attribution{
         position: relative;
 	color: white;
-        top: 45% ;
+        top: 50% ;
         text-align: center;
-        font-size: 8px;
+        font-size: 9px;
 }
 
 
