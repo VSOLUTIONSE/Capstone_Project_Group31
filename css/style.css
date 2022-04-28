@@ -702,17 +702,16 @@ li {
     display: flex;
     justify-content: space-between;
     font-family: 'Open Sans', monospace;
-    font-size: 16px;
+    font-size: 12px;
     padding: 0;
     border: none;
     background-color: transparent;
     color: hsl(176, 68%, 64%);
     border-bottom: solid hsl(176, 68%, 64%) 2px;
-    width: 10em;
-    height: 1.5em;
+    width: 12em;
+    height: 1.8em;
     top: 10px;
     cursor: pointer;
-    margin-left: 15px;
 }
 
 .flyo-button:hover {
@@ -726,7 +725,6 @@ li {
     display: flex;
     width: 20px;
     height: 20px;
-	align-self: center;
 } 
 
 .comments{
@@ -741,8 +739,8 @@ Margin: auto;
     position: relative; 
     display: flex;
     flex-wrap: wrap; 
-    justify-content: center;
-    margin: 50px 0;
+    justify-content: space-around;
+    margin: auto;
     width: 100%;
     top: 20px;
 	height: 100vh;
@@ -760,8 +758,7 @@ Margin: auto;
     font-family: 'Open Sans', monospace;
     font-size: 12px;
     box-shadow: 2px 2px 10px hsl(220, 27%, 2%);
-    margin: 10px 15px ;
-    justify-content: space-between;
+    margin: auto;
 }
 
 .block {
