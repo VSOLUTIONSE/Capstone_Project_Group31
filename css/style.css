@@ -345,7 +345,7 @@ body .productive-parent, .comments {
 }
 
 .client-detial {
-    top: 30px;
+    top: 50px;
 }
 
   .invite-Container {
@@ -688,7 +688,7 @@ li {
     font-family: 'Open Sans', monospace;
     font-size: 10px;
     width: 100%;
-    margin: 20px ;
+    margin: 20px 0;
 
 }
 
