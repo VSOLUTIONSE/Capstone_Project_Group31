@@ -505,19 +505,17 @@ li {
     filter: hsl(176, 68%, 64%);
 }
 
-p .attribution-link{
-	text-decoration: none;
+.attribution{
+        position: relative;
 	color: rgb(249, 246, 246);
         top: 55%;
         text-align: center;
         font-size: 12px;
 }
-
-p .span{
-	color: hsl(176, 68%, 64%);
-        top: 55%;
-        text-align: center;
-        font-size: 12px;
+ 
+.attribution a {
+        text-decoration: none;
+	color: hsl(228, 45%, 44%);
 }
 
    @media(max-width: 769px){
