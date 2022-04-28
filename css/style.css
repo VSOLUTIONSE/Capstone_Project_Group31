@@ -317,6 +317,7 @@ body .productive-parent, .comments {
     justify-content: space-between;
     width: 12em;
     line-height: 1.2;
+    top: 15px;
 }
 
 .client-image {
@@ -325,7 +326,6 @@ body .productive-parent, .comments {
     width: 27px;
     height: 27px;
     border-radius: 50%;
-    top: 12px;
 }
 
 .client-role {
@@ -345,7 +345,7 @@ body .productive-parent, .comments {
 }
 
 .client-detial {
-    top: 50px;
+    top: 20px;
 }
 
   .invite-Container {
@@ -869,19 +869,19 @@ Margin: auto;
     .footer-child {
         width: 90%;
         line-height: 2;
-        margin-left: -10%;
+        top: 10px;
     }
 
 footer-media {
 width: 40%;
-margin: auto;
+margin-left: 25%;
 }
 
 
 .attribution{
         position: relative;
 	color: white;
-        top: 65% ;
+        top: 55% ;
         text-align: center;
         font-size: 8px;
 }
