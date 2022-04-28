@@ -874,11 +874,15 @@ Margin: auto;
         top: 20px;
     }
 
-footer-media {
+.footer-media {
 	position: relative;
 width: 40%;
-margin-left: 50%;
-	margin-top: 40px;
+margin: auto;
+top: 40px;
+}
+
+.media-icons {
+	width: 15px;   
 }
 
 
