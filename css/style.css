@@ -315,7 +315,7 @@ body .productive-parent, .comments {
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 9em;
+    width: 12em;
     line-height: 1.2;
 }
 
@@ -326,7 +326,6 @@ body .productive-parent, .comments {
     height: 27px;
     border-radius: 50%;
     top: 12px;
-	padding-top: -5px;
 }
 
 .client-role {
@@ -657,21 +656,23 @@ li {
     flex-direction: column;
 }
 
+.productive-img-div {
+   width:90%;
+   padding: 5%;
+ }
+
  .productive-img {
-    /* position: relative;*/
-    /* display: block;*/
+    position: relative;
+    display: block;
     width: 18em;
-    padding: 0 4%;
-    margin-top: 35px;
-    margin: 0 4%;
-    margin-left: 5%;
+    margin: auto
 }
 
 
 .productive {
     position: relative;
-    width: 100%;
-    margin: auto 0;
+    width: 90%;
+    margin: auto;
       
 }
 
@@ -680,20 +681,14 @@ li {
     font-weight: 700;
     font-size: 1.0em;
     width: 100%;
-    margin: 20px 0;
-    margin-left: 15px;
-    margin-right: 20px;
     
 }
 
 .productive-p{
     font-family: 'Open Sans', monospace;
     font-size: 10px;
-    width: 90%;
-    margin: 20px 0;
-    margin-left: 15px;
-    margin-right: 20px;
-    text-align: left;
+    width: 100%;
+    margin: 20px ;
 
 }
 
@@ -702,7 +697,7 @@ li {
     display: flex;
     justify-content: space-between;
     font-family: 'Open Sans', monospace;
-    font-size: 10px;
+    font-size: 9px;
     padding: 0;
     border: none;
     background-color: transparent;
@@ -838,7 +833,7 @@ Margin: auto;
     
 
     footer{
-        height: 80em;
+        height: 70em;
         font-size: 12px
     }
 
@@ -886,9 +881,9 @@ margin: auto;
 .attribution{
         position: relative;
 	color: white;
-        top: 75% ;
+        top: 65% ;
         text-align: center;
-        font-size: 9px;
+        font-size: 8px;
 }
 
 
