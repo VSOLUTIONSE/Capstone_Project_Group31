@@ -315,7 +315,7 @@ body .productive-parent, .comments {
     position: relative;
     display: flex;
     justify-content: space-between;
-    width: 11em;
+    width: 9.5em;
     line-height: 1.2;
     top: 15px;
 }
@@ -346,6 +346,7 @@ body .productive-parent, .comments {
 }
 
 .client-detial {
+	position: relative;
     top: 30px;
 }
 
@@ -763,7 +764,7 @@ Margin: auto;
 
 
 .comment-tag{
-    top: 100px;
+    top: 50px;
 	   }
 
 
