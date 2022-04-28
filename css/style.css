@@ -282,15 +282,7 @@ body .productive-parent, .comments {
     display: flex;
     width: 20px;
     height: 20px;
-	align-self: center;
 } 
-
-.fylo-see span {
-	text-align: left;
-	display: flex;
-    font-size: 12px;
-    margin-left: 0px;
-}
 
  .parent-comment {
     position: relative;
@@ -480,7 +472,7 @@ li {
 }
 
 .contact {
-    /* position: relative; */
+    position: relative;
     display: flex;
     flex-direction: column;
     top: 15px;
@@ -491,7 +483,7 @@ li {
 } 
 
 .contact-icons {
-    /* position: relative; */
+    position: relative;
     width: 10px;
     right: 15px;
     margin-bottom: -2.7px;
@@ -665,8 +657,8 @@ p .span{
 }
 
  .productive-img {
-    /* position: relative; */
-    /* display: block; */
+    /* position: relative;*/
+    /* display: block;*/
     width: 18em;
     padding: 0 4%;
     margin-top: 35px;
@@ -850,8 +842,8 @@ p .span{
     }
     
 
-    .footer{
-        height: 100;
+    footer{
+        height: 50em;
     }
 
     .footer-div {
@@ -859,15 +851,14 @@ p .span{
         width: 100%;
         margin: auto;
         top: 200px;
-        display: flex;
-        flex-direction: column;
     }
     
     .footer-flex {
         position: relative;
         display: flex;
         width: 100%;
-        flex-wrap: wrap;
+        justify-content: center;
+        flex-wrap: no-wrap;
         /* gap: 6%; */
         margin: auto;
 
@@ -876,7 +867,7 @@ p .span{
     }
     
     .footer-logo {
-        width: 12em;
+        width: 10em;
     }
     
     .footer-child {
