@@ -485,8 +485,6 @@ li {
     position: relative;
     width: 10px;
     right: 15px;
-    margin-bottom: -2.7px;
-    padding-top: 4px;
 }
 
 .footer-media {
@@ -510,10 +508,16 @@ li {
 p .attribution-link{
 	text-decoration: none;
 	color: rgb(249, 246, 246);
+        top: 55%;
+        text-align: center;
+        font-size: 12px;
 }
 
 p .span{
 	color: hsl(176, 68%, 64%);
+        top: 55%;
+        text-align: center;
+        font-size: 12px;
 }
 
    @media(max-width: 769px){
@@ -840,11 +844,12 @@ Margin: auto;
 
     footer{
         height: 80em;
+        font-size: 12px
     }
 
     .footer-div {
         position: relative;
-        width: 100%;
+        width: 85%;
         margin: auto;
         top: 200px;
     }
@@ -853,25 +858,28 @@ Margin: auto;
         position: relative;
         display: flex;
         width: 100%;
-        justify-content: center;
-        flex-wrap: no-wrap;
-        /* gap: 6%; */
+        flex-wrap: wrap;
+        gap: 6%;
         margin: auto;
-
+        top: 20px;
         flex-direction: column;
 
     }
     
     .footer-logo {
-        width: 10em;
+        width: 12em;
     }
     
     .footer-child {
-        width: 11%;
+        width: 90%;
         line-height: 2;
+        margin-left: -10%;
     }
 
-
+footer-media {
+width: 40%;
+margin: auto;
+}
 
 
 
