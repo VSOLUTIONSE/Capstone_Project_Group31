@@ -29,13 +29,12 @@
 }
 
    .logs {
-	   margin: 80px auto 0;
+	   margin: 100px auto 0;
 	  width: 100%;
 	 display: flex;
 	 align-items: center;
 	 flex-direction: row;
 Justify-content: center;
-	 overflow: auto;
  } 
 
  /* navbar-section */
